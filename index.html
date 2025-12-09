@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoDzingi Briquettes | Maun, Botswana</title>
+    <meta name="description" content="Affordable charcoal briquettes in Maun. WhatsApp: +267 76329704">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; color: #333; }
+        .container { width: 90%; margin: 0 auto; }
+        
+        /* Header */
+        header { background: #2E7D32; padding: 15px 0; position: fixed; width: 100%; top: 0; }
+        .logo { color: white; font-size: 24px; font-weight: bold; text-align: center; }
+        
+        /* Hero */
+        .hero { background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4'); background-size: cover; color: white; padding: 120px 0 60px; text-align: center; }
+        .hero h1 { font-size: 32px; margin-bottom: 20px; }
+        .hero p { font-size: 18px; margin-bottom: 30px; }
+        .cta-button { background: #2E7D32; color: white; padding: 15px 30px; border-radius: 30px; text-decoration: none; display: inline-block; font-weight: bold; }
+        
+        /* Sections */
+        section { padding: 60px 0; }
+        h2 { color: #2E7D32; text-align: center; margin-bottom: 30px; font-size: 28px; }
+        
+        /* Products */
+        .product { background: #f9f9f9; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+        .price { color: #8D6E63; font-size: 24px; font-weight: bold; margin: 10px 0; }
+        
+        /* Contact */
+        .contact { background: #f0f0f0; }
+        .contact-info { background: white; padding: 20px; border-radius: 10px; margin-top: 20px; }
+        
+        /* WhatsApp Button */
+        .whatsapp-btn { position: fixed; bottom: 20px; right: 20px; background: #25d366; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 30px; text-decoration: none; }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 24px; }
+            section { padding: 40px 0; }
+        }
+    </style>
+</head>
+<body>
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/26776329704" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">EcoDzingi Briquettes</div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Clean Energy for Maun, Botswana</h1>
+            <p>Affordable charcoal briquettes made from recycled waste. Save 30% on cooking fuel.</p>
+            <a href="https://wa.me/26776329704" class="cta-button">Order on WhatsApp</a>
+        </div>
+    </section>
+    
+    <!-- Products -->
+    <section>
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product">
+                <h3>2kg Household Pack</h3>
+                <p>Perfect for families in Maun</p>
+                <div class="price">P15.00</div>
+                <a href="https://wa.me/26776329704?text=I%20want%202kg%20pack" class="cta-button">Order Now</a>
+            </div>
+            <div class="product">
+                <h3>5kg Vendor Pack</h3>
+                <p>For street food vendors</p>
+                <div class="price">P30.00</div>
+                <a href="https://wa.me/26776329704?text=I%20want%205kg%20pack" class="cta-button">Order Now</a>
+            </div>
+            <div class="product">
+                <h3>10kg Business Pack</h3>
+                <p>For lodges & restaurants</p>
+                <div class="price">P50.00</div>
+                <a href="https://wa.me/26776329704?text=I%20want%2010kg%20pack" class="cta-button">Order Now</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact -->
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us in Maun</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> WhatsApp: +267 76329704</p>
+                <p><i class="fas fa-map-marker-alt"></i> Location: Maun, Botswana</p>
+                <p><i class="fas fa-fire"></i> Product: Eco-friendly charcoal briquettes</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SEO Content (Hidden but helps Google) -->
+    <div style="display:none;">
+        <h1>Charcoal Briquettes Maun Botswana</h1>
+        <p>EcoDzingi provides affordable charcoal briquettes in Maun. We are the best charcoal supplier in Maun, Botswana for households, restaurants, and lodges. Our eco-friendly briquettes are made from recycled waste and help save trees in the Okavango Delta region.</p>
+    </div>
+    
+    <script>
+        // Simple JavaScript for mobile
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
